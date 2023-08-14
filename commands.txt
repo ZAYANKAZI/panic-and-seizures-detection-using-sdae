@@ -1,0 +1,4 @@
+python sdae_train.py --epochs=30 --batch-size=32 --normal-path=C:\Users\kazis\Desktop\Thesis\Data\normal_scenario1.mp4 --abnormal-path=C:\Users\kazis\Desktop\Thesis\Data\abnormal_scenario1.mp4 --folder-name scenario1 --show-test-logs True
+
+
+python sdae_test.py --model-path=trained_models/scenario1/trained_sdae_model__32_10.pth --batch-size=32 --noise-factor=0.2 --loss-threshold=0.02 --video-file-path=C:\Users\kazis\Desktop\Thesis\Data\abnormal_scenario1.mp4
