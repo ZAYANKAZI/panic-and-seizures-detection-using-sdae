@@ -1,5 +1,7 @@
-# panic-and-seizures-detection-using-sdae
-Panic and seizure detection using stacked denoising autoencoders
+# Zayan Shabbir Kazi
+# Panic and seizure detection using stacked denoising autoencoders
+# C00290817
+# SETU-Carlow
 
 
 #utils.py
